@@ -1,0 +1,30 @@
+h1 {
+
+    -ms-transform: rotate(-2deg); /* IE 9 */
+    -moz-transform: rotate(-2deg); /* Firefox */
+    -webkit-transform: rotate(-2deg); /* Safari and Chrome */
+    -o-transform: rotate(-2deg); /* Opera */
+
+    -webkit-box-shadow: 7px 7px 23px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    7px 7px 23px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         7px 7px 23px 0px rgba(50, 50, 50, 0.75);
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #fff !important;
+    background-color: #253699;
+    display: inline-block;
+    padding: 0.3em;
+}
+
+.jumbotron {
+    /*pattern taken from subtlepatterns.com*/
+    background: url(../img/triangular.png);
+}
+
+footer
+{
+    color: #ccc;
+}
